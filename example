@@ -1,0 +1,48 @@
+def greet():
+    print("Hello! How can I assist you today?")
+
+
+def process_user_input(user_input):
+    if "balance" in user_input:
+        # Call the balance function
+        
+    elif "portfolio" in user_input:
+        # Call the portfolio function
+        
+    elif "history" in user_input:
+        # Call the history function
+        
+    elif "transactions" in user_input or "transfers" in user_input:
+        # Call the transaction filter function
+        
+    elif "token price" in user_input:
+        # Call the token price function
+        
+    elif "top token holders" in user_input:
+        # Call the top token holders function
+        
+    elif "token price history" in user_input:
+        # Call the token price history function
+        
+    elif "top token flow" in user_input:
+        # Call the top token flow function
+        
+    elif "token exchange flow" in user_input:
+        # Call the token exchange flow function
+        
+    elif "single number" in user_input:
+        # Call the single number function
+        
+    elif "chart" in user_input:
+        # Call the line chart function
+        
+    elif "pie chart" in user_input:
+        # Call the pie chart function
+        
+    else:
+        print("I'm sorry, I don't understand that request.")
+
+
+greet()
+user_input = input("What can I do for you? ")
+process_user_input(user_input)
